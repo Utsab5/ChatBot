@@ -3,46 +3,101 @@
         {
             "tag":"greetings",
             "patterns":["Hi","hello","hey","what's up","greetings"],
-            "responses":["Hello!","Hey!","Greetings! How can i help you?","Hello! Welcome to MyIIEST. How can I assist you today?", "Hi there! How can I help you?", "Hey! How can I assist you today?"]
+            "responses":["Hello! &#x1F60A",
+                        "Hey! &#x1F60A","Greetings! How can i help you &#x1F60A?","Hello! Welcome to MyIIEST. How can I assist you today &#x1F60A?", "Hi there! How can I help you &#x1F60A?", "Hey! How can I assist you today &#x1F60A?"]
         },
         {
             "tag":"developers",
-            "patterns":["Who developed you?" , "How were you made?" , "by whom were you made?", "who made you?"],
+            "patterns":["Who developed you?" , "How were you made?" , "by whom were you made?", "who made you?","Who created you?","Who built you?",
+            "Who is responsible for your development?",
+            "Who designed and programmed you?",
+            "Who brought you into existence?",
+            "Who is behind your creation?"],
             "responses":["I was created by a Btech student in the Department of Mechanical Engineering named Utsab Kundu......just kidding........i was made by a team of 7 UG students who worked on the project of MyIIEST"]
         },
         {
+            "tag":"nirf",
+            "patterns":["what is the nirf rank of iiest in 2023?" , 
+                        "nirf rank of iiest in 2023?", "what is the nirf?",
+                        "What is the NIRF ranking of IIEST in 2023?",
+                        "Could you tell me the 2023 NIRF rank of IIEST?",
+                        "In the year 2023, what was the NIRF rank of IIEST?",
+                        "I'm curious about the NIRF rank of IIEST in 2023. Can you provide that information?",
+                        "Could you please share the NIRF rank of IIEST for the year 2023?",
+                        "What position did IIEST secure in the NIRF ranking for 2023?" ],
+
+            "responses":["As of 2023, the Indian Institute of Engineering Science and Technology (IIEST) is ranked 35th in the NIRF (National Institutional Ranking Framework). Additionally, it is considered as one of the top six NITs (National Institutes of Technology) in India." , "IIEST got its NIRF ranking of 35 in 2023 and it's worth noting that it is also among the top 6 National Institutes of Technology (NITs) in India. This further emphasizes its standing as a reputable engineering institution in the country."]
+        },
+        {
             "tag":"depts.",
-            "patterns":["What are the different departments available in IIEST?" ],
-            "responses":["There are "]
+            "patterns":["What are the different departments available in IIEST?","What are the departments offered at IIEST?",
+            "Which departments are available at IIEST?",
+            "Can you list the different departments in IIEST?",
+            "What are the academic divisions in IIEST?",
+            "Tell me about the various departments in IIEST.","how many departments are there in iiest?",
+            "Which subject-specific departments can be found at IIEST?" ],
+            "responses":["There are 16 departments available in IIEST:<br>Aerospace Engineering and Applied Mechanics <br> Architecture and Planning <br> Chemistry <br> Civil Engineering <br> Computer Science and Technology <br> Earth Sciences <br> Electrical Engineering <br> Electronics and Telecommunication Engineering <br> Human Resourse Management <br> Humanities and Social Science <br> Information Technology <br> Mathematics <br> Mechanical Engineering <br> Metallurgy and Materials Engineering <br> Mining Engineering <br> Physics"]
         },
         {
             "tag":"help",
-            "patterns":["I have some doubts","can you help me?" ],
-            "responses":["Yeah sure! I am here to assist you :) <br> Please specify your doubt"]
+            "patterns":["I have some doubts","can you help me?" ,"I'm unsure about something. Could you assist me?",
+            "I have questions. Can you provide some guidance?",
+            "I'm feeling uncertain. Can you lend a hand?",
+            "I'm having doubts. Could you offer your expertise?",
+            "I need clarification on a few things. Can you offer assistance?",
+            "I'm a bit confused. Can you help me out?"],
+            "responses":["Yeah sure! I am here to assist you &#x1F60A <br> Please specify your doubt"]
         },
         {
             "tag": "about_iiest",
-            "patterns": ["What is IIEST?", "Tell me about IIEST", "Can you explain what IIEST is?"],
-            "responses": ["IIEST Shibpur, located in Shibpur, Howrah, West Bengal, is a public research university and an NIT. Established in 1856, it is recognized as an Institute of National Importance by the Government of India and is controlled by the Council of NITSER. It became the first college to be renamed Indian Institute of Engineering Science and Technology (IIEST) in 2014. With a rich history, it has 16 departments, 8 schools, over 250 faculty members, and more than 4000 students."]
+            "patterns": ["What is IIEST?", "Tell me about IIEST", "Can you explain what IIEST is?","how is iiest?","is iiest good?","What is IIEST?",
+            "Can you provide information about IIEST?",
+            "Tell me something about IIEST.",
+            "What can you tell me about Indian Institute of Engineering Science and Technology?",
+            "Can you give me an overview of IIEST?",
+            "What do you know about IIEST?"],
+            "responses": ["IIEST Shibpur, located in Shibpur, Howrah, West Bengal, is a public research university and an NIT. Established in 1856, it is recognized as an Institute of National Importance by the Government of India and is controlled by the Council of NITSER. It became the first college to be renamed Indian Institute of Engineering Science and Technology (IIEST) in 2014. With a rich history, it has 16 departments, 8 schools, over 250 faculty members, and more than 4000 students.", 
+            "IIEST, which stands for the Indian Institute of Engineering Science and Technology, is a well-regarded institution known for its focus on engineering and science education. It was established with the aim of providing quality technical education and fostering research in various fields.<br>IIEST offers undergraduate, postgraduate, and doctoral programs in disciplines such as engineering, science, architecture, and management. The institute is known for its strong faculty base, which consists of experienced professors and researchers.<br> Students at IIEST have access to modern infrastructure, including well-equipped laboratories, libraries, and research facilities. The institute emphasizes a holistic approach to education, combining theoretical knowledge with practical applications through projects and internships.<br> IIEST also promotes research and innovation, encouraging students and faculty members to engage in cutting-edge research activities. The institute collaborates with industries and organizations to promote industry-academia partnerships and provide opportunities for practical exposure and internships.<br>Overall, IIEST has a positive reputation in the field of engineering and science education, focusing on academic excellence, research, and practical application of knowledge."]
         },
         {
             "tag":"aboutIIC",
-            "patterns":["What is IIC?" , "Tell me something about IIC" , "Can you explain what IIC is?"],
+            "patterns":["What is IIC?" , "Tell me something about IIC" , "Can you explain what IIC is?","What is IIC?",
+            "Can you explain what IIC stands for?",
+            "Tell me about IIC.",
+            "IIC - what does it refer to?",
+            "Could you provide a brief overview of IIC?",
+            "Please describe what IIC is.",
+            "What can you tell me about the Indian Institute of Code (IIC)?",
+            "I'm curious about IIC. Can you give me some information?"],
             "responses":["In 2018, the Ministry of Education (MoE), formerly known as MHRD, launched the Institute's Innovation Council (IIC) program in collaboration with AICTE for Higher Education Institutions (HEIs). The program aimed to foster a culture of innovation and entrepreneurship in educational institutions by engaging faculty, staff, and students in various innovation-related activities. The IICs' responsibilities included promoting ideation, problem-solving, proof of concept development, design thinking, intellectual property rights (IPR), and project management. The goal was to establish and strengthen an innovation ecosystem in HEIs through the creation of a network of IICs across selected institutions."]
         },
         {
             "tag": "ug_courses",
-            "patterns": ["What are the Academic Courses IIEST offers for UG?", "Tell me about the undergraduate courses at IIEST", "Which UG courses are available at IIEST?"],
+            "patterns": ["What are the Academic Courses IIEST offers for UG?", "Tell me about the undergraduate courses at IIEST", "Which UG courses are available at IIEST?","What are the academic courses available for UG at IIEST?",
+            "Can you tell me about the undergraduate courses offered at IIEST?",
+            "Which UG programs does IIEST offer?",
+            "What are the options for undergraduate studies at IIEST?",
+            "Could you provide information on the UG courses at IIEST?",
+            "I'm interested in knowing about the academic programs for undergraduates at IIEST. Could you help?"],
             "responses": ["IIEST offers the following undergraduate courses: B.Tech. (4 years), B.Arch. (5 years), and Dual Degree (B.Tech.-M.Tech) for 5 years."]
         },
         {
             "tag": "pg_courses",
-            "patterns": ["What are the Academic Courses IIEST offers for PG?", "Tell me about the postgraduate courses at IIEST", "Which PG courses are available at IIEST?"],
+            "patterns": ["What are the Academic Courses IIEST offers for PG?", "Tell me about the postgraduate courses at IIEST", "Which PG courses are available at IIEST?","What academic programs does IIEST offer for postgraduate students?",
+            "Could you provide information about the postgraduate courses available at IIEST?",
+            "I'm interested in knowing about the PG courses offered by IIEST. Can you tell me more?",
+            "Which postgraduate programs are available at IIEST?",
+            "Can you give me an overview of the PG courses at IIEST?"],
             "responses": ["IIEST offers the following postgraduate courses: M.Tech. (2 years), M.Sc. (2 years), MBA (2 years), M.O.P (2 years), and Ph.D."]
         },
         {
             "tag": "nit_status",
-            "patterns": ["Is IIEST a NIT?", "Is IIEST recognized as an NIT?", "Does IIEST have NIT status?"],
+            "patterns": ["Is IIEST a NIT?", "Is IIEST recognized as an NIT?", "Does IIEST have NIT status?" ,"Is IIEST considered as an NIT?",
+            "Does IIEST have the status of an NIT?",
+            "Is IIEST recognized as a National Institute of Technology?",
+            "Is IIEST classified as an NIT?",
+            "Is IIEST part of the NIT system?",
+            "Does IIEST hold NIT designation?"],
             "responses": ["Yes, IIEST is an NIT and it is governed by the Council of NITSER."]
         },
         {
@@ -68,7 +123,7 @@
         {
             "tag": "fee_waiver_eligibility",
             "patterns": ["Who are Eligible for Full and Partial Tuition Fee Waiver?", "What are the eligibility criteria for tuition fee waivers?", "Tell me about the requirements for tuition fee waivers"],
-            "responses": ["Full Tuition Fee Waiver: Annual Income < 1,00,000\nPartial Tuition Fee Waiver: Annual Income: 1,00,000 to 5,00,000 (link)"]
+            "responses": ["Full Tuition Fee Waiver: Annual Income < 1,00,000<br>Partial Tuition Fee Waiver: Annual Income: 1,00,000 to 5,00,000 (link)"]
         },
         {
             "tag": "refund_josaa",
@@ -88,7 +143,7 @@
         {
             "tag": "clubs",
             "patterns": ["What are the Clubs at IIEST Shibpur?", "Tell me about the clubs at IIEST Shibpur", "Which clubs are available at IIEST Shibpur?"],
-            "responses": ["The clubs at IIEST Shibpur include :\nRobodarshan \n Les Thespians \n Catharsis \n Euphony \n LitSoc \n Quizmaniac BEings \n SCAGE \n Society of Games and Sports \n Code IIEST \n DebSoc \n Reflexo Beta \n Entrepreneurship Development Cell(EDC) \n Camerabuff \n Aeromodelling Club."]
+            "responses": ["The clubs at IIEST Shibpur include :<br>Robodarshan <br> Les Thespians <br> Catharsis <br> Euphony <br> LitSoc <br> Quizmaniac BEings <br> SCAGE <br> Society of Games and Sports <br> Code IIEST <br> DebSoc <br> Reflexo Beta <br> Entrepreneurship Development Cell(EDC) <br> Camerabuff <br> Aeromodelling Club."]
         },
         {
             "tag": "special",
@@ -103,13 +158,19 @@
         {
             "tag": "fests",
             "patterns": ["What are the Fests at IIEST Shibpur?", "Tell me about the festivals celebrated at IIEST Shibpur", "Which fests are organized at IIEST Shibpur?"],
-            "responses": ["The fests at IIEST Shibpur include REBECA, GYANDHARA, OIKOTAA, ANURANAN, TEDX-IIESTSHIBPUR, UDBHAVANI, INITIUM, METALLUM, SPHURAN, SCINTILLATIONS, IMPETUS, VAIDYUTIK, ABHIYANTRIX, SATRANG, and KRITI. (link)"]
+            "responses": ["The fests at IIEST Shibpur include REBECA, GYANDHARA, OIKOTAN, ANURANAN, TEDX-IIESTSHIBPUR, UDBHAVANI, INITIUM, METALLUM, SPHURAN, SCINTILLATIONS, IMPETUS, VAIDYUTIK, ABHIYANTRIX, SATRANG, and KRITI. (link)"]
         },
   
         {
             "tag":"bot",
-            "patterns":["who are you","what is your name","what should i call you"],
-            "responses":["My name is MyIIEST Assistant🙂"]
+            "patterns":["who are you","what is your name","what should i call you","May I know your identity?",
+            "What do you go by?",
+            "Could you please introduce yourself?",
+            "What name should I address you with?",
+            "Who am I speaking to?",
+            "Can you tell me your given name?",
+            "How should I refer to you?"],
+            "responses":["My name is MyIIEST Assistant &#x1F60A"]
         },
         {
             "tag": "thanks",
