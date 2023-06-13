@@ -71,9 +71,9 @@ def get_response(intents_list, intents_json):
 ###################
 def chat(message):
     # message = input("")
-    
+    print("1")
     ints = predict_class(message)
-    
+    print("2")
     res = get_response(ints, intents)
     return res
 
