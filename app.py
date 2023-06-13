@@ -10,7 +10,9 @@ def index():
 @app.route("/get" , methods=["GET","POST"])
 def chat():
     msg = request.form["msg"]
+    print("-1")
     input = msg
+    print("0")
     output = getChatResponse(input)
     # print(output)
     return output
