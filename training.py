@@ -5,6 +5,7 @@ import numpy as np
 
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
 #for stemming( work , working , worked -> work)
 from nltk.stem import WordNetLemmatizer
 
